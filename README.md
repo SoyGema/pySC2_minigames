@@ -12,6 +12,9 @@ To investigate elements of the game in isolation, and to provide further fine-gr
 ## Minigames repositories 
 
 keaneu Tan https://github.com/TitanEX1/SC2-Scenario-Designs
+
 ArChon https://github.com/4rChon/sc2-ai-mini-games
+
 Deadzombie2333 https://github.com/deadzombie2333/Minigame_Predict_Battle_Outcome
+
 SoyGema https://github.com/SoyGema/Startcraft_pysc2_minigames
