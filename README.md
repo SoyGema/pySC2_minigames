@@ -15,6 +15,8 @@ ArChon https://github.com/4rChon/sc2-ai-mini-games
 
 
    ## DefeatZealots
+   
+![alt tag](https://github.com/SoyGema/pySC2-mini-games/blob/master/images/4rChon/DefeatZealots%20.png)
 
 ### Description
 
@@ -40,7 +42,7 @@ A map with 2 Stalkers opposite to 3 Zealots. Rewards are earned by using the Sta
 * No camera movement required (single-screen)
 * Target skill(s): Kiting
 
-### Notes for Policy Design 
+### Notes for scripted agent and/or agent Policy Design 
 * Optimal policy might learn micro strategy to move Stalkers away from zealots and atack them in distance 
   
   
