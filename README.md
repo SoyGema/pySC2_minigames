@@ -11,7 +11,8 @@ To investigate elements of the game in isolation, and to provide further fine-gr
 
 ## Minigames repositories 
 
-ArChon https://github.com/4rChon/sc2-ai-mini-games
+## ArChon 
+https://github.com/4rChon/sc2-ai-mini-games
 
 
    ## DefeatZealots
