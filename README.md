@@ -45,7 +45,7 @@ A map with 2 Stalkers opposite to 3 Zealots. Rewards are earned by using the Sta
 
 ### Notes for scripted agent and/or agent Policy Design (separate good agents from bad ones) 
 * Optimal policy might learn micro strategy to move Stalkers away from zealots and atack them in distance . Focusing on attacking one zealot until it's dead seems to have an optimal outcome. 
-  
+* Great map for micro Stalker unit learning 
   
   
   * Defeat Zealots Blink
