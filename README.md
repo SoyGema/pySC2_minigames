@@ -1,4 +1,4 @@
-# pySC2-mini-games
+# pySC2 mini-games
 Curated list of pysc2 mini-games 
 
 
@@ -13,7 +13,37 @@ To investigate elements of the game in isolation, and to provide further fine-gr
 
 ArChon https://github.com/4rChon/sc2-ai-mini-games
 
-  * Defeat Zealots
+
+   ## DefeatZealots
+
+### Description
+
+A map with 2 Stalkers opposite to 3 Zealots. Rewards are earned by using the Stalkers to defeat the Zealots. Whenever all Zealots have been defeated, a new group of 3 Zealots is spawned and the surviving Stalkers are moved to a random point on the opposite spawning location, retaining their existing health. Whenever new units are spawned, all unit positions are reset to opposite sides of the map.
+
+### Initial State
+* 2 Stalkers at a random side of the map (preselected)
+* 3 Zealots at the opposite side of the map from the Stalkers
+
+### Rewards
+* Zealot defeated: +5
+* Stalker defeated: -1
+
+### End Conditions
+* Time elapsed
+* All Stalkers Defeated
+
+### Time Limit
+* 160 seconds
+
+### Additional Notes
+* Fog of War disabled
+* No camera movement required (single-screen)
+* Target skill(s): Kiting
+
+### Notes for Policy Design 
+* Optimal policy might learn micro strategy to move Stalkers away from zealots and atack them in distance 
+  
+  
   
   * Defeat Zealots Blink
   
