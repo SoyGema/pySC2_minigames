@@ -60,8 +60,6 @@ Deadzombie2333 https://github.com/deadzombie2333/Minigame_Predict_Battle_Outcome
 
 ## SoyGema 
 https://github.com/SoyGema/Startcraft_pysc2_minigames
-
-  * Sentry Defense 
   
    ## HallucinIce
 
@@ -97,23 +95,25 @@ No camera movement required (single-screen)
 Note that this map is under development and should be re-sized for balance
 Please note this work is still under development. If you find any relevant comment or issue feel free to open an issue
 
+
 ## deadzombie2333
 https://github.com/deadzombie2333/Minigame_Predict_Battle_Outcome
 
-![alt tag]()
 
  ## PredictBattleOutcome
  
+ ![alt tag](https://github.com/SoyGema/pySC2-minigames/blob/master/images/deadzombie2333/Predict_Battle_Outcome.png)
+ 
 ### Description
+Two considerable amount of random enemy armies confront each other in a open area, having random upgrade and skills of their own. Determine or predict wich one will win the batlle .
 
-Two considerable amount of random enemy armies confront each other in a open area, having random upgrade and skills of their own. Determine or predict wich one will win the batlle 
 
 ### Initial State
 * 1 to 22 Marines, 1 to 4 marauders and 1 to 4 tanks displayed randomly 
 * 1 to 23 zerlings, 1 to 9 banelings and 1 to 11 Hydralisks displayed randomly 
 
 ### Rewards
-* Terran defeated: +5
+* Terran defeated: +1
 * Zerg defeated: -1
 
  #### End Conditions
@@ -124,4 +124,7 @@ Zerg defeated
 ### Time Limit 
 30 seconds
 
-keaneu Tan https://github.com/TitanEX1/SC2-Scenario-Designs
+#### Additional Notes
+Objective for your agent/AI is to determine which side will win. In order to do that, you have to gather as much information as possible in limited amount of time. After 2 seconds of pause, both side will march toward each other and start their bloody battle until only one side of the army stand on the battle ground.
+
+
