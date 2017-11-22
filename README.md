@@ -50,18 +50,14 @@ A map with 2 Stalkers opposite to 3 Zealots. Rewards are earned by using the Sta
 ### Variations of DefeatZealots 
 
   * Defeat Zealots Blink
-  
-  * Defeat Single Zealot
-  
-Deadzombie2333 https://github.com/deadzombie2333/Minigame_Predict_Battle_Outcome
-
-  * Defeat lings and Hydralisk
-  
+   
 
 ## SoyGema 
 https://github.com/SoyGema/Startcraft_pysc2_minigames
   
    ## HallucinIce
+
+![alt tag](https://github.com/SoyGema/Startcraft_pysc2_minigames/blob/master/Images/HallucinIceV2.png)
 
 #### Description
 
@@ -86,14 +82,12 @@ Time elapsed
 Zerg defeated
 
 ### Time Limit 
-180 seconds
+30 seconds
 
 #### Additional Notes
 Terrain condition designed for hallucination defense game development 
 Fog of war disabled
 No camera movement required (single-screen)
-Note that this map is under development and should be re-sized for balance
-Please note this work is still under development. If you find any relevant comment or issue feel free to open an issue
 
 
 ## deadzombie2333
