@@ -97,4 +97,31 @@ No camera movement required (single-screen)
 Note that this map is under development and should be re-sized for balance
 Please note this work is still under development. If you find any relevant comment or issue feel free to open an issue
 
+## deadzombie2333
+https://github.com/deadzombie2333/Minigame_Predict_Battle_Outcome
+
+![alt tag]()
+
+ ## PredictBattleOutcome
+ 
+### Description
+
+Two considerable amount of random enemy armies confront each other in a open area, having random upgrade and skills of their own. Determine or predict wich one will win the batlle 
+
+### Initial State
+* 1 to 22 Marines, 1 to 4 marauders and 1 to 4 tanks displayed randomly 
+* 1 to 23 zerlings, 1 to 9 banelings and 1 to 11 Hydralisks displayed randomly 
+
+### Rewards
+* Terran defeated: +5
+* Zerg defeated: -1
+
+ #### End Conditions
+
+Time elapsed
+Zerg defeated
+
+### Time Limit 
+30 seconds
+
 keaneu Tan https://github.com/TitanEX1/SC2-Scenario-Designs
