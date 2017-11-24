@@ -4,5 +4,5 @@ DefeatZealots . Made by 4chron
 
 HallucinIce . Made by SoyGema 
 
-PredictBattleOutcome . Made by Deadzombie2333
+PredictBattleOutcome . Made by Deadzombie2333 (changed initialization random army playable spaces)
 
