@@ -94,7 +94,7 @@ No camera movement required (single-screen)
 https://github.com/deadzombie2333/Minigame_Predict_Battle_Outcome
 
 
- ## PredictBattleOutcome
+ ## PredictBattleOutcome ( Debugged - reviewed with autohr asked ) 
  
  ![alt tag](https://github.com/SoyGema/pySC2-minigames/blob/master/images/deadzombie2333/Predict_Battle_Outcome.png)
  
@@ -122,3 +122,33 @@ Zerg defeated
 Objective for your agent/AI is to determine which side will win. In order to do that, you have to gather as much information as possible in limited amount of time. After 2 seconds of pause, both side will march toward each other and start their bloody battle until only one side of the army stand on the battle ground.
 
 
+## TitanEX1
+https://github.com/TitanEX1
+
+
+ ## DefeatRavagersRepairCyclones ( Debugged - reviewed with autohr asked ) 
+ 
+ ![alt tag](https://github.com/SoyGema/pySC2-minigames/blob/master/images/TitanEX1/DefeatRavagersRepairCyclones.png)
+ 
+ ### Description
+----
+
+
+### Initial State
+* 4 Ravagers
+* 2 Cyclones and 2 SCVs 
+
+### Rewards
+* Terran defeated: 
+* Zerg defeated: 
+
+ #### End Conditions
+
+Time elapsed
+Zerg defeated
+
+### Time Limit 
+-- seconds
+
+#### Additional Notes
+----
