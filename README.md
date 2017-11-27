@@ -131,7 +131,7 @@ https://github.com/TitanEX1
  ![alt tag](https://github.com/SoyGema/pySC2-minigames/blob/master/images/TitanEX1/DefeatRavagersRepairCyclones.png)
  
  ### Description
-----
+Defeat Zerg enemy using the repair function by SCVs. Learn to focus fire 
 
 
 ### Initial State
@@ -151,4 +151,6 @@ Zerg defeated
 -- seconds
 
 #### Additional Notes
-----
+Fog of war disabled
+No camera movement required (single-screen)
+
