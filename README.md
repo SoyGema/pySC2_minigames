@@ -89,17 +89,20 @@ Terrain condition designed for hallucination defense game development
 Fog of war disabled
 No camera movement required (single-screen)
 
+### Notes for scripted agent and/or agent Policy Design (separate good agents from bad ones) 
+* Optimal policy might learn micro strategy to hallucinate units that might absorb the maximum damage possible and positioning hallucinated units protecting sentrys 
+* Great map for micro sentry unit learning 
 
 ## deadzombie2333
 https://github.com/deadzombie2333/Minigame_Predict_Battle_Outcome
 
 
- ## PredictBattleOutcome ( Debugged - reviewed with autohr asked ) 
+ ## PredictBattleOutcome ( Debugged - reviewed with author asked ) 
  
  ![alt tag](https://github.com/SoyGema/pySC2-minigames/blob/master/images/deadzombie2333/Predict_Battle_Outcome.png)
  
 ### Description
-Two considerable amount of random enemy armies confront each other in a open area, having random upgrade and skills of their own. Determine or predict wich one will win the batlle .
+Two considerable amount of random enemy armies confront each other in a open area, having random upgrade and skills of their own. Determine or predict wich one will win the batlle .After 2 seconds of pause, both side will march toward each other and start their bloody battle until only one side of the army stand on the battle ground.
 
 
 ### Initial State
@@ -119,19 +122,21 @@ Zerg defeated
 30 seconds
 
 #### Additional Notes
-Objective for your agent/AI is to determine which side will win. In order to do that, you have to gather as much information as possible in limited amount of time. After 2 seconds of pause, both side will march toward each other and start their bloody battle until only one side of the army stand on the battle ground.
+Objective for your agent/AI is to determine which side will win. In order to do that, you have to gather as much information as possible in limited amount of time. 
 
+### Notes for scripted agent and/or agent Policy Design (separate good agents from bad ones) 
+* Optimal policy will predict the outcome of the battle having a high degree of accuracy in a early stage of the game visualization ( before 2 seconds ) 
 
 ## TitanEX1
 https://github.com/TitanEX1
 
 
- ## DefeatRavagersRepairCyclones ( Debugged - reviewed with autohr asked ) 
+ ## DefeatRavagersRepairCyclones ( Debugged - review with author asked ) 
  
  ![alt tag](https://github.com/SoyGema/pySC2-minigames/blob/master/images/TitanEX1/DefeatRavagersRepairCyclones.png)
  
  ### Description
-Defeat Zerg enemy using the repair function by SCVs. Learn to focus fire 
+Defeat Zerg enemy using the repair function by SCVs. Learn to micro focusing fire and reparing units while attack
 
 
 ### Initial State
@@ -154,3 +159,6 @@ Zerg defeated
 Fog of war disabled
 No camera movement required (single-screen)
 
+### Notes for scripted agent and/or agent Policy Design (separate good agents from bad ones) 
+* Optimal policy might learn micro strategy to differenciate in between repair and attack units and exploit each one functions. 
+* Great map for micro terran repair/attck unit learning 
