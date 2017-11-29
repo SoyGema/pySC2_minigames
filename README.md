@@ -1,3 +1,7 @@
+
+[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
+[![label](https://img.shields.io/github/issues-raw/badges/shields/website.svg)]()
+
 # pySC2 mini-games
 Curated list of pysc2 mini-games 
 
@@ -97,7 +101,7 @@ No camera movement required (single-screen)
 https://github.com/deadzombie2333/Minigame_Predict_Battle_Outcome
 
 
- ## PredictBattleOutcome ( Debugged - reviewed with author asked ) 
+ ## PredictBattleOutcome ( Debugged - reviewed with author ) 
  
  ![alt tag](https://github.com/SoyGema/pySC2-minigames/blob/master/images/deadzombie2333/Predict_Battle_Outcome.png)
  
