@@ -61,7 +61,7 @@ https://github.com/SoyGema/Startcraft_pysc2_minigames
   
    ## HallucinIce
 
-![alt tag](https://github.com/SoyGema/Startcraft_pysc2_minigames/blob/master/Images/HallucinIceV2.png)
+![alt tag](https://github.com/SoyGema/pySC2-minigames/blob/master/images/SoyGema/HallucinIce%20.png)
 
 #### Description
 
@@ -70,9 +70,8 @@ The goal is to exploit sentry hallucination function
 
 #### Initial State
 
-*   4 Sentry at left playable size
-*   4 Hellions at right playable size
-*   2 Reapers at right playable size
+*   3 Sentry at left playable size
+*   5 Hellions at right playable size
 
 
  #### Rewards
