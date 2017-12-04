@@ -59,7 +59,7 @@ A map with 2 Stalkers opposite to 3 Zealots. Rewards are earned by using the Sta
 ## SoyGema 
 https://github.com/SoyGema/Startcraft_pysc2_minigames
   
-   ## HallucinIce
+   ## HallucinIce ( Debugged ) 
 
 ![alt tag](https://github.com/SoyGema/pySC2-minigames/blob/master/images/SoyGema/HallucinIce%20.png)
 
