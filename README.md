@@ -156,7 +156,7 @@ Time elapsed
 Zerg defeated
 
 ### Time Limit 
--- seconds
+120 seconds
 
 #### Additional Notes
 Fog of war disabled
