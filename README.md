@@ -134,7 +134,7 @@ Objective for your agent/AI is to determine which side will win. In order to do 
 https://github.com/TitanEX1
 
 
- ## DefeatRavagersRepairCyclones ( Debugged - review with author asked ) 
+ ## DefeatRavagersRepairCyclones ( Debugged + time limit changed - review with author asked ) 
  
  ![alt tag](https://github.com/SoyGema/pySC2-minigames/blob/master/images/TitanEX1/DefeatRavagersRepairCyclones.png)
  
@@ -156,7 +156,7 @@ Time elapsed
 Zerg defeated
 
 ### Time Limit 
-120 seconds
+60 seconds
 
 #### Additional Notes
 Fog of war disabled
