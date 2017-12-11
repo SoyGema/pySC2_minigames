@@ -158,7 +158,7 @@ Zerg defeated
 ### Time Limit 
 60 seconds
 
-#### Additional Notes
+### Additional Notes
 Fog of war disabled
 No camera movement required (single-screen)
 
