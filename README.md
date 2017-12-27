@@ -1,6 +1,8 @@
 
 [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
 [![label](https://img.shields.io/github/issues-raw/badges/shields/website.svg)]()
+[![Twitter](https://img.shields.io/twitter/url/https/github.com/SoyGema/pySC2-minigames.svg?style=social)](https://twitter.com/intent/tweet?text=Wow:&url=https%3A%2F%2Fgithub.com%2FSoyGema%2FpySC2-minigames)
+[![label](https://img.shields.io/badge/community-under_construction-orange.svg)]()
 
 # pySC2 mini-games
 Curated list of pysc2 mini-games 
