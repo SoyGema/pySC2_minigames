@@ -6,7 +6,10 @@
 
 # pySC2 mini-games
 Curated list of pysc2 mini-games 
-
+1.- [DefeatZealots](https://github.com/SoyGema/pySC2-minigames/blob/master/mini-games/DefeatZealots.SC2Map): Protoss VS Terran Melee
+2.- [HallucinIce](https://github.com/SoyGema/pySC2-minigames/blob/master/mini-games/HallucinIce.SC2Map): Protoss Hallucination explotation 
+3.- [PredictBattleOutcome](https://github.com/SoyGema/pySC2-minigames/blob/master/mini-games/PredictBattleOutcome.SC2Map): Predict the battle outcome between Terran VS Zerg
+4.- [DefeatRavagersRepairCyclones](https://github.com/SoyGema/pySC2-minigames/blob/master/mini-games/DefeatRavagerswithRepairCyclones.SC2Map): Zerg VS Terran Melee with SCVs 
 
 ## Minigame task description
 
@@ -167,3 +170,5 @@ No camera movement required (single-screen)
 ### Notes for scripted agent and/or agent Policy Design (separate good agents from bad ones) 
 * Optimal policy might learn micro strategy to differenciate in between repair and attack units and exploit each one functions. 
 * Great map for micro terran repair/attck unit learning 
+
+
