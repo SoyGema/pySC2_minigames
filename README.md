@@ -6,6 +6,7 @@
 
 # pySC2 mini-games
 Curated list of pysc2 mini-games 
+
 1.- [DefeatZealots](https://github.com/SoyGema/pySC2-minigames/blob/master/mini-games/DefeatZealots.SC2Map): Protoss VS Terran Melee
 
 2.- [HallucinIce](https://github.com/SoyGema/pySC2-minigames/blob/master/mini-games/HallucinIce.SC2Map): Protoss Hallucination explotation 
@@ -16,7 +17,7 @@ Curated list of pysc2 mini-games
 
 5.-[HitAndRun]():
 
-6.-[MarineRescue](): Predict the battle outcome between Terran VS Zerg
+6.-[MarineRescue](): 
 
 7.-[FlowerFields](): Terran VS Protoss melee . Learn to regroup and defeat the enemy 
 
