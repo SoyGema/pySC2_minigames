@@ -16,19 +16,19 @@ Community has also create different kind of mini-games in order to explore other
 
 ## How to run community mini-games in your environment 
 
-*1. Download or clone the repository, or download all minigames clicking here
+1. Download or clone the repository, or download all minigames clicking here
 
-*2. Go to pysc2\maps\mini_games.py and add to mini-games array the following mini-games names 
+2. Go to pysc2\maps\mini_games.py and add to mini-games array the following mini-games names 
 
 ```python
-mini_games = [
+mini_games = [  ## This mini-games names should alredy been in your list
     "BuildMarines",  # 900s
     "CollectMineralsAndGas",  # 420s
     "CollectMineralShards",  # 120s
     "DefeatRoaches",  # 120s
     "DefeatZerglingsAndBanelings",  # 120s
     "FindAndDefeatZerglings",  # 180s
-    "MoveToBeacon",  # 120s   ## This mini-games names should alredy been in your list 
+    "MoveToBeacon",  # 120s   ##Now you add this few lines 
     "DefeatZealotswithBlink", #
     "HallucinIce", #
     "PredictBattleOutcome", #
@@ -38,35 +38,34 @@ mini_games = [
     "FlowerFields", #
 ]
 ```
-*3. In your console, you can type the mini-game map name 
+3. In your console, you can type the mini-game map name 
+
+```console
+```
 
 Curated list of pysc2 mini-games 
 
-1.- [DefeatZealots](https://github.com/SoyGema/pySC2-minigames/blob/master/mini-games/DefeatZealots.SC2Map): Protoss VS Terran Melee
+1.- [DefeatZealots](https://github.com/SoyGema/pySC2-minigames/blob/master/mini-games/DefeatZealots.SC2Map): Learn to use blink with Stalkers . ProtossVSTerran
 
-2.- [HallucinIce](https://github.com/SoyGema/pySC2-minigames/blob/master/mini-games/HallucinIce.SC2Map): Protoss Hallucination explotation 
+2.- [HallucinIce](https://github.com/SoyGema/pySC2-minigames/blob/master/mini-games/HallucinIce.SC2Map): Learn to use Hallucination with Sentry units. ProtossVSTerran
 
-3.- [PredictBattleOutcome](https://github.com/SoyGema/pySC2-minigames/blob/master/mini-games/PredictBattleOutcome.SC2Map): Predict the battle outcome between Terran VS Zerg
+3.- [PredictBattleOutcome](https://github.com/SoyGema/pySC2-minigames/blob/master/mini-games/PredictBattleOutcome.SC2Map): Predict the battle outcome. TerranVSZerg
 
-4.- [DefeatRavagersRepairCyclones](https://github.com/SoyGema/pySC2-minigames/blob/master/mini-games/DefeatRavagerswithRepairCyclones.SC2Map): Zerg VS Terran Melee with SCVs 
+4.- [DefeatRavagersRepairCyclones](https://github.com/SoyGema/pySC2-minigames/blob/master/mini-games/DefeatRavagerswithRepairCyclones.SC2Map): Learn to repair units with SCVs while defeating the enemy. ZergVSTerran
 
-5.-[HitAndRun]():
+5.-[HitAndRun](https://github.com/SoyGema/pySC2-minigames/blob/master/mini-games/HitAndRun.SC2Map): ZergVSProtoss
 
-6.-[MarineRescue](): 
+6.-[MarineRescue](https://github.com/SoyGema/pySC2-minigames/blob/master/mini-games/Marine_Rescue.SC2Map): Terran VS Zerg.
 
-7.-[FlowerFields](): Terran VS Protoss melee . Learn to regroup and defeat the enemy 
+7.-[FlowerFields](https://github.com/SoyGema/pySC2-minigames/blob/master/mini-games/FlowerFields.SC2Map):Learn to regroup and defeat the enemy . TerranVSProtoss  
 
 
 
-## Minigames repositories 
-
-## ArChon 
-https://github.com/4rChon/sc2-ai-mini-games
-
+## Minigame repositories from  [ArChon](https://github.com/4rChon/sc2-ai-mini-games)
 
    ## DefeatZealots
    
-![alt tag](https://github.com/SoyGema/pySC2-mini-games/blob/master/images/4rChon/DefeatZealots%20.png)
+![alt tag](https://github.com/SoyGema/pySC2-mini-games/blob/master/images/4rChon/DefeatZealots%20.png )
 
 ### Description
 
@@ -100,9 +99,7 @@ A map with 2 Stalkers opposite to 3 Zealots. Rewards are earned by using the Sta
 
   * Defeat Zealots Blink
    
-
-## SoyGema 
-https://github.com/SoyGema/Startcraft_pysc2_minigames
+## Minigame repositories from [SoyGema](https://github.com/SoyGema/Startcraft_pysc2_minigames)
   
    ## HallucinIce ( Debugged ) 
 
@@ -141,8 +138,7 @@ No camera movement required (single-screen)
 * Optimal policy might learn micro strategy to hallucinate units that might absorb the maximum damage possible and positioning hallucinated units protecting sentrys 
 * Great map for micro sentry unit learning 
 
-## deadzombie2333
-https://github.com/deadzombie2333/Minigame_Predict_Battle_Outcome
+## Minigame repositories from  [deadzombie2333](https://github.com/deadzombie2333/Minigame_Predict_Battle_Outcome)
 
 
  ## PredictBattleOutcome ( Debugged - reviewed with author ) 
@@ -175,9 +171,7 @@ Objective for your agent/AI is to determine which side will win. In order to do 
 ### Notes for scripted agent and/or agent Policy Design (separate good agents from bad ones) 
 * Optimal policy will predict the outcome of the battle having a high degree of accuracy in a early stage of the game visualization ( before 2 seconds ) 
 
-## TitanEX1
-https://github.com/TitanEX1
-
+## Minigame repositories from [TitanEX1](https://github.com/TitanEX1)
 
  ## DefeatRavagersRepairCyclones ( Debugged + time limit changed - review with author asked ) 
  
