@@ -5,6 +5,41 @@
 [![label](https://img.shields.io/badge/community-under_construction-orange.svg)]()
 
 # pySC2 mini-games
+
+## Minigame task description
+
+Minigames come as a controled environments that might be useful to exploit game features in SC2. General purpose learning system for Startcraft 2 can be a daunting task, so there is a logical option in splitting this tasks into minitask in orther to advance in research. 
+
+Mini-games are focused scenarios on small maps that have been constructed with the purpose of testing a subset of actions and/or game mechanics with a clear reward structure. Unlike the full game where the reward is just win/lose/tie, the reward structure for mini-games can reward particular behaviours (as defined in a corresponding .SC2Map file). 
+
+Community has also create different kind of mini-games in order to explore other aspects of gaming. This is a curated list that includes a selection of some significative ones, specially focused in aspects such as unit explotation, micro unit managment in different races. 
+
+## How to run community mini-games in your environment 
+
+*1. Download or clone the repository, or download all minigames clicking here
+
+*2. Go to pysc2\maps\mini_games.py and add to mini-games array the following mini-games names 
+
+```python
+mini_games = [
+    "BuildMarines",  # 900s
+    "CollectMineralsAndGas",  # 420s
+    "CollectMineralShards",  # 120s
+    "DefeatRoaches",  # 120s
+    "DefeatZerglingsAndBanelings",  # 120s
+    "FindAndDefeatZerglings",  # 180s
+    "MoveToBeacon",  # 120s   ## This mini-games names should alredy been in your list 
+    "DefeatZealotswithBlink", #
+    "HallucinIce", #
+    "PredictBattleOutcome", #
+    "DefeatRavagersRepairCyclones", #
+    "HitAndRun", #
+    "MarineRescue", #
+    "FlowerFields", #
+]
+```
+*3. In your console, you can type the mini-game map name 
+
 Curated list of pysc2 mini-games 
 
 1.- [DefeatZealots](https://github.com/SoyGema/pySC2-minigames/blob/master/mini-games/DefeatZealots.SC2Map): Protoss VS Terran Melee
@@ -21,11 +56,6 @@ Curated list of pysc2 mini-games
 
 7.-[FlowerFields](): Terran VS Protoss melee . Learn to regroup and defeat the enemy 
 
-## Minigame task description
-
-Minigames come as a controled environments that might be useful to exploit game features in SC2. General purpose learning system for Startcraft 2 can be a daunting task. So there is a logical option in splitting this tasks into minitask in orther to advance in research . Mini-games focus on different elements of Starcraft II Gameplay .
-
-To investigate elements of the game in isolation, and to provide further fine-grained steps towards playing the full game, Deepmind has built several mini-games. These are focused scenarios on small maps that have been constructed with the purpose of testing a subset of actions and/or game mechanics with a clear reward structure. Unlike the full game where the reward is just win/lose/tie, the reward structure for mini-games can reward particular behaviours (as defined in a corresponding .SC2Map file).
 
 
 ## Minigames repositories 
