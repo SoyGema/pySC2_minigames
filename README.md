@@ -63,17 +63,17 @@ Curated list of pysc2 mini-games
 
 
 
-   ## DefeatZealots
+   ## DefeatZealotswithBlink
    
 ![alt tag](https://github.com/SoyGema/pySC2-mini-games/blob/master/images/4rChon/DefeatZealots%20.png )
 #### Minigame repositories from  [ArChon](https://github.com/4rChon/sc2-ai-mini-games)
 ### Description
 
-A map with 2 Stalkers opposite to 3 Zealots. Rewards are earned by using the Stalkers to defeat the Zealots. Whenever all Zealots have been defeated, a new group of 3 Zealots is spawned and the surviving Stalkers are moved to a random point on the opposite spawning location, retaining their existing health. Whenever new units are spawned, all unit positions are reset to opposite sides of the map.
+A map with 1 Stalker opposite to 1 Zealot. Rewards are earned by using the Stalkers to defeat the Zealots. Whenever all Zealots have been defeated, a new group of 3 Zealots is spawned and the surviving Stalkers are moved to a random point on the opposite spawning location, retaining their existing health. Whenever new units are spawned, all unit positions are reset to opposite sides of the map.
 
 ### Initial State
-* 2 Stalkers at a random side of the map (preselected)
-* 3 Zealots at the opposite side of the map from the Stalkers
+* 1 Stalker at a random side of the map (preselected)
+* 1 Zealot at the opposite side of the map from the Stalker
 
 ### Rewards
 * Zealot defeated: +5
@@ -81,15 +81,15 @@ A map with 2 Stalkers opposite to 3 Zealots. Rewards are earned by using the Sta
 
 ### End Conditions
 * Time elapsed
-* All Stalkers Defeated
+* Stalker Defeated
 
 ### Time Limit
-* 160 seconds
+* 120 seconds
 
 ### Additional Notes
 * Fog of War disabled
 * No camera movement required (single-screen)
-* Target skill(s): Kiting
+* Target skill: Kiting
 
 ### Notes for scripted agent and/or agent Policy Design (separate good agents from bad ones) 
 * Optimal policy might learn micro strategy to move Stalkers away from zealots and atack them in distance . Focusing on attacking one zealot until it's dead seems to have an optimal outcome. 
