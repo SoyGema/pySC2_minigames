@@ -91,7 +91,7 @@ A map with 1 Stalker opposite to 1 Zealot. Rewards are earned by using the Stalk
 * No camera movement required (single-screen)
 * Target skill: Kiting
 
-### Notes for scripted agent and/or agent Policy Design (separate good agents from bad ones) 
+### Intended Machine Learning Objective
 * Optimal policy might learn micro strategy to move Stalkers away from zealots and atack them in distance . Focusing on attacking one zealot until it's dead seems to have an optimal outcome. 
 * Great map for micro Stalker unit learning 
   
@@ -134,7 +134,7 @@ Terrain condition designed for hallucination defense game development
 Fog of war disabled
 No camera movement required (single-screen)
 
-### Notes for scripted agent and/or agent Policy Design (separate good agents from bad ones) 
+### Intended Machine Learning Objective 
 * Optimal policy might learn micro strategy to hallucinate units that might absorb the maximum damage possible and positioning hallucinated units protecting sentrys 
 * Great map for micro sentry unit learning 
 
@@ -168,7 +168,7 @@ Zerg defeated
 #### Additional Notes
 Objective for your agent/AI is to determine which side will win. In order to do that, you have to gather as much information as possible in limited amount of time. 
 
-### Notes for scripted agent and/or agent Policy Design (separate good agents from bad ones) 
+### Intended Machine Learning Objective
 * Optimal policy will predict the outcome of the battle having a high degree of accuracy in a early stage of the game visualization ( before 2 seconds ) 
 
 
@@ -200,8 +200,50 @@ Zerg defeated
 Fog of war disabled
 No camera movement required (single-screen)
 
-### Notes for scripted agent and/or agent Policy Design (separate good agents from bad ones) 
+### In
 * Optimal policy might learn micro strategy to differenciate in between repair and attack units and exploit each one functions. 
 * Great map for micro terran repair/attck unit learning 
 
+# Minigame_Hit_and_Run
 
+Design of an agent that exploits cliff vaulting mechanics of Colossus in Starcraft II.  
+Based on Starcraft Master games 
+#### Minigame repositories from [heerdemoglu](https://github.com/heerdemoglu) and Holyswamp
+
+## Map Information:
+
+One Colossus stands on top a cliff, while 27 Zerglings converge to attack on the Colossus climbing from ramps that are located from the sides of the cliff. The aim is to develop an agent which exploits cliff vaulting mechanics of Colossus in order to develop an advantage over Zerglings. The test time is set to 5 minutes and the game ends either when the Colossus ends or the dedicated time period has finished. The game resets itself while retaining reward points and the health of the Colossus, when all Zerglings on the map are killed.
+
+### Initial State:
+* 1 agent controlled Colossus
+* 27 computer controlled Zerglings
+
+### Rewards: (tentative)
+* +2 for killing each Zergling
+* +x points for every x health that Colosssus has (excluding shields)
+* -20 for dying
+
+### End Conditions:
+* Time limit reached
+* Colossus dies
+
+### Time Limit:
+* 300 seconds
+
+### Notes:
+* Fog of War disabled
+* No upgrades available
+* The policy might learn micro strategy of kiting the enemy units by using cliff vault mechanic. Timing is crucial for agent to optimize Colossus health while inflicting most damage.
+
+# Marine Rescue Description:
+The goal is to locate marines and order them to load a medivac for evacuation. Banelings are wandering on the map randomly looking for marine to kill. 10 difficulty levels are available for beginner and experienced player. The higher level, there will be more marines and banelings appeared simultaneously on the map. 
+
+Medivac will automatic launch after it is fully loaded and you will get reward for that. At same time, another empty medivac will enter battle field to the designated location. 
+
+# Rewards:
+ * each marine loaded medivac +1
+ * each marine killed by baneling -1 
+ * each medivac fully loaded and escaped +8
+ 
+ ### Time Limit:
+ * 180 seconds
