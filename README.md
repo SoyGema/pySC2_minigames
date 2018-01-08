@@ -41,6 +41,7 @@ mini_games = [  ## This mini-games names should alredy been in your list
 3. In your console, you can type the mini-game map name 
 
 ```console
+my-computer:~ me$ python -m pysc2.bin.agent --map FlowerFields 
 ```
 
 Curated list of pysc2 mini-games 
@@ -200,11 +201,11 @@ Zerg defeated
 Fog of war disabled
 No camera movement required (single-screen)
 
-### In
+### Intended Machine Learning Objetive 
 * Optimal policy might learn micro strategy to differenciate in between repair and attack units and exploit each one functions. 
 * Great map for micro terran repair/attck unit learning 
 
-# Minigame_Hit_and_Run
+# Minigame Hit and Run
 
 Design of an agent that exploits cliff vaulting mechanics of Colossus in Starcraft II.  
 Based on Starcraft Master games 
