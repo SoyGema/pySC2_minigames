@@ -60,7 +60,7 @@ Curated list of pysc2 mini-games
 
 7.-[FlowerFields](https://github.com/SoyGema/pySC2-minigames/blob/master/mini-games/FlowerFields.SC2Map):Learn to regroup and defeat the enemy . TerranVSProtoss  
 
-
+8.[MineralsHaveArrived](https://github.com/SoyGema/pySC2-minigames/blob/master/mini-games/MineralsHaveArrived.SC2Map):Learn to gather as many minerals as possible  . Terran
 
 
 
