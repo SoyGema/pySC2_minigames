@@ -1,10 +1,13 @@
 ## Minigames .SC2 maps
 
-DefeatZealots . Made by 4chron
+DefeatZealotsBlink . Made by 4chron
 
-HallucinIce . Made by SoyGema 
+HallucinIce and FlowerFields. Made by SoyGema 
 
-PredictBattleOutcome . Made by Deadzombie2333 (changed initialization random army playable spaces)
+PredictBattleOutcome and Marine_Rescue . Made by Deadzombie2333 (changed initialization random army playable spaces)
 
-DefeatRavagersRepairCyclones. by TitanEX1 (changed bug initializing by point ) 
+DefeatRavagersRepairCyclones. Made by by TitanEX1 (changed bug initializing by point ) 
 
+HitAndRun . Made by emre erdemoglu and Holyswamp 
+
+MineralsHaveArrived. Made by ShawdowSpyes (changed terrain, camera inizialization  )
