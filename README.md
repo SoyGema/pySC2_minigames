@@ -34,8 +34,9 @@ mini_games = [  ## This mini-games names should alredy been in your list
     "PredictBattleOutcome", #
     "DefeatRavagersRepairCyclones", #
     "HitAndRun", #
-    "MarineRescue", #
+    "Marine_Rescue", #
     "FlowerFields", #
+    "MineralsHaveArrived", #
 ]
 ```
 3. In your console, you can type the mini-game map name 
@@ -248,3 +249,109 @@ Medivac will automatic launch after it is fully loaded and you will get reward f
  
  ### Time Limit:
  * 180 seconds
+
+
+ ## DefeatRavagersRepairCyclones ( Debugged + time limit changed - review with author asked ) 
+ 
+ ![alt tag](https://github.com/SoyGema/pySC2-minigames/blob/master/images/TitanEX1/DefeatRavagersRepairCyclones.png)
+#### Minigame repositories from [TitanEX1](https://github.com/TitanEX1)
+ ### Description
+Defeat Zerg enemy using the repair function by SCVs. Learn to micro focusing fire and reparing units while attack
+
+### Initial State
+* 4 Ravagers
+* 2 Cyclones and 2 SCVs 
+
+### Rewards
+* Terran defeated: 
+* Zerg defeated: 
+
+ #### End Conditions
+
+Time elapsed
+Zerg defeated
+
+### Time Limit 
+60 seconds
+
+### Additional Notes
+Fog of war disabled
+No camera movement required (single-screen)
+
+### Intended Machine Learning Objetive 
+* Optimal policy might learn micro strategy to differenciate in between repair and attack units and exploit each one functions. 
+* Great map for micro terran repair/attck unit learning 
+
+
+## FlowerFields
+
+![alt tag](https://github.com/SoyGema/Startcraft_pysc2_minigames/blob/master/Images/Captura%20de%20pantalla%202018-01-02%20a%20las%2014.51.09.png)
+#### Minigame repositories from [SoyGema](https://github.com/SoyGema)
+
+#### Description
+
+Defeat protoss photon cannon without losing any marauder.
+The goal of the minigame is to learn to regroup marauders and to attack in a coordinated way without losing any unit 
+
+#### Initial State
+
+*   4 photon cannon at Central playable size
+*   2 marauders at right playable size
+*   2 marauders at left playable size
+
+ #### Rewards
+
+Protoss defeated : +10
+Terran defeated : -5
+
+ #### End Conditions
+
+Time elapsed
+Protoss defeated
+Time Limit
+60 seconds
+
+ #### Additional Notes
+Terrain condition designed for photon defense game development 
+Fog of war disabled
+No camera movement required (single-screen)
+
+### Intended Machine Learning Objetive 
+
+* The optimal policy will make marauders to regroup and attack together  
+
+
+## MineralsHaveArrived
+
+
+#### Minigame repositories from [ShadowSpyes](https://github.com/ShadowSpyes) (Map conditions changed 
+
+#### Description
+
+Gather as many minerals as possible 
+
+#### Initial State
+
+*   1 command center 
+*   12 SCVs
+
+
+ #### Rewards
+
+SCV mineral gather to command center : +5
+
+ #### End Conditions
+
+Time elapsed
+Protoss defeated
+Time Limit
+300 seconds
+
+ #### Additional Notes
+Terrain condition designed for photon defense game development 
+Fog of war disabled
+No camera movement required (single-screen)
+
+### Intended Machine Learning Objetive 
+
+* The optimal policy might change the position of the command center in orther to be more near of the more amount of possible minerals and produce more SCVs, even to upgrade command center to produce the highest score possible  
