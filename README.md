@@ -6,6 +6,8 @@
 
 # pySC2 mini-games
 
+Community mini-games for [pySC2 Deepmind library](https://github.com/deepmind/pysc2)
+
 ## Minigame task description
 
 Minigames come as a controled environments that might be useful to exploit game features in SC2. General purpose learning system for Startcraft 2 can be a daunting task, so there is a logical option in splitting this tasks into minitask in orther to advance in research. 
@@ -29,14 +31,14 @@ mini_games = [  ## This mini-games names should alredy been in your list
     "DefeatZerglingsAndBanelings",  # 120s
     "FindAndDefeatZerglings",  # 180s
     "MoveToBeacon",  # 120s   ##Now you add this few lines 
-    "DefeatZealotswithBlink", #
-    "HallucinIce", #
-    "PredictBattleOutcome", #
-    "DefeatRavagersRepairCyclones", #
-    "HitAndRun", #
-    "Marine_Rescue", #
-    "FlowerFields", #
-    "MineralsHaveArrived", #
+    "DefeatZealotswithBlink", # 120s
+    "HallucinIce", # 30s
+    "PredictBattleOutcome", # 30s
+    "DefeatRavagersRepairCyclones", # 60s
+    "HitAndRun", # 300s
+    "Marine_Rescue", # 180s
+    "FlowerFields", # 60s
+    "MineralsHaveArrived", # 500s
 ]
 ```
 3. In your console, you can type the mini-game map name 
@@ -47,9 +49,9 @@ my-computer:~ me$ python -m pysc2.bin.agent --map FlowerFields
 
 Curated list of pysc2 mini-games 
 
-1.- [DefeatZealotswithBlink](https://github.com/SoyGema/pySC2-minigames/blob/master/mini-games/DefeatZealots.SC2Map): Learn to use blink with Stalkers . ProtossVSTerran
+1.- [DefeatZealotswithBlink](https://github.com/SoyGema/pySC2-minigames/blob/master/mini-games/DefeatZealots.SC2Map): Learn to use blink with Stalkers . ProtossVSTerran [readme](README.md##DefeatZealotswithBlink)
 
-2.- [HallucinIce](https://github.com/SoyGema/pySC2-minigames/blob/master/mini-games/HallucinIce.SC2Map): Learn to use Hallucination with Sentry units. ProtossVSTerran
+2.- [HallucinIce](https://github.com/SoyGema/pySC2-minigames/blob/master/mini-games/HallucinIce.SC2Map): Learn to use Hallucination with Sentry units. ProtossVSTerran 
 
 3.- [PredictBattleOutcome](https://github.com/SoyGema/pySC2-minigames/blob/master/mini-games/PredictBattleOutcome.SC2Map): Predict the battle outcome. TerranVSZerg
 
