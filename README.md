@@ -1,8 +1,9 @@
 
 [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
 [![label](https://img.shields.io/github/issues-raw/badges/shields/website.svg)]()
-[![Twitter](https://img.shields.io/twitter/url/https/github.com/SoyGema/pySC2-minigames.svg?style=social)](https://twitter.com/intent/tweet?text=minigames_curated_list!#pySC2:&url=https%3A%2F%2Fgithub.com%2FSoyGema%2FpySC2-minigames)
+(https://twitter.com/intent/tweet?text=minigames_curated_list!#pySC2:&url=https%3A%2F%2Fgithub.com%2FSoyGema%2FpySC2-minigames)
 [![label](https://img.shields.io/badge/community-under_construction-orange.svg)]()
+[![Twitter](https://img.shields.io/twitter/url/https/github.com/SoyGema/pySC2-minigames.svg?style=social)]
 
 # pySC2 mini-games
 
@@ -49,15 +50,16 @@ my-computer:~ me$ python -m pysc2.bin.agent --map FlowerFields
 
 Curated list of pysc2 mini-games 
 
-1.- [DefeatZealotswithBlink](https://github.com/SoyGema/pySC2-minigames/blob/master/mini-games/DefeatZealots.SC2Map): Learn to use blink with Stalkers . ProtossVSTerran [readme](README.md#DefeatZealotswithBlink)
+1.- [DefeatZealotswithBlink](https://github.com/SoyGema/pySC2-minigames/blob/master/mini-games/DefeatZealots.SC2Map): Learn to use blink with Stalkers . ProtossVSTerran [Readme](README.md##DefeatZealotswithBlink)
 
-2.- [HallucinIce](https://github.com/SoyGema/pySC2-minigames/blob/master/mini-games/HallucinIce.SC2Map): Learn to use Hallucination with Sentry units. ProtossVSTerran [readme](README.md#HallucinIce-(-Debugged-))
+2.- [HallucinIce](https://github.com/SoyGema/pySC2-minigames/blob/master/mini-games/HallucinIce.SC2Map): Learn to use Hallucination with Sentry units. ProtossVSTerran [Readme](README.md##HallucinIce-(-Debugged-))
 
-3.- [PredictBattleOutcome](https://github.com/SoyGema/pySC2-minigames/blob/master/mini-games/PredictBattleOutcome.SC2Map): Predict the battle outcome. TerranVSZerg [readme](README.md##PredictBattleOutcome)
+3.- [PredictBattleOutcome](https://github.com/SoyGema/pySC2-minigames/blob/master/mini-games/PredictBattleOutcome.SC2Map): Predict the battle outcome. TerranVSZerg [Readme](README.md##PredictBattleOutcome)
 
 4.- [DefeatRavagersRepairCyclones](https://github.com/SoyGema/pySC2-minigames/blob/master/mini-games/DefeatRavagerswithRepairCyclones.SC2Map): Learn to repair units with SCVs while defeating the enemy. ZergVSTerran
+[Readme](README.md##DefeatRavagersRepairCyclones)
 
-5.-[HitAndRun](https://github.com/SoyGema/pySC2-minigames/blob/master/mini-games/HitAndRun.SC2Map): ZergVSProtoss
+5.-[HitAndRun](https://github.com/SoyGema/pySC2-minigames/blob/master/mini-games/HitAndRun.SC2Map): ZergVSProtoss [Readme](README.md##HitAndRun)
 
 6.-[MarineRescue](https://github.com/SoyGema/pySC2-minigames/blob/master/mini-games/Marine_Rescue.SC2Map): Terran VS Zerg.
 
