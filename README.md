@@ -61,11 +61,11 @@ Curated list of pysc2 mini-games
 5.-[HitAndRun](https://github.com/SoyGema/pySC2-minigames/blob/master/mini-games/HitAndRun.SC2Map): ZergVSProtoss [Readme](README.md##HitAndRun)
 
 6.-[MarineRescue](https://github.com/SoyGema/pySC2-minigames/blob/master/mini-games/Marine_Rescue.SC2Map): Terran VS Zerg.
-(README.md##MarineRescue)
+[Readme](README.md##MarineRescue)
 
-7.-[FlowerFields](https://github.com/SoyGema/pySC2-minigames/blob/master/mini-games/FlowerFields.SC2Map):Learn to regroup and defeat the enemy . TerranVSProtoss . (README.md##FlowerFields) 
+7.-[FlowerFields](https://github.com/SoyGema/pySC2-minigames/blob/master/mini-games/FlowerFields.SC2Map):Learn to regroup and defeat the enemy . TerranVSProtoss . [Readme](README.md##FlowerFields) 
 
-8.[MineralsHaveArrived](https://github.com/SoyGema/pySC2-minigames/blob/master/mini-games/MineralsHaveArrived.SC2Map):Learn to gather as many minerals as possible  . Terran (README.md##MineralsHaveArrived)
+8.[MineralsHaveArrived](https://github.com/SoyGema/pySC2-minigames/blob/master/mini-games/MineralsHaveArrived.SC2Map):Learn to gather as many minerals as possible  . Terran [Readme](README.md##MineralsHaveArrived)
 
 
 
