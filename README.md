@@ -1,13 +1,12 @@
 
 [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
 [![label](https://img.shields.io/github/issues-raw/badges/shields/website.svg)]()
-(https://twitter.com/intent/tweet?text=minigames_curated_list!#pySC2:&url=https%3A%2F%2Fgithub.com%2FSoyGema%2FpySC2-minigames)
 [![label](https://img.shields.io/badge/community-under_construction-orange.svg)]()
-[![Twitter](https://img.shields.io/twitter/url/https/github.com/SoyGema/pySC2-minigames.svg?style=social)]
+[![Twitter](https://img.shields.io/twitter/url/https/github.com/SoyGema/pySC2-minigames.svg?style=social)](https://twitter.com/intent/tweet?text=minigames_curated_list!#pySC2:&url=https%3A%2F%2Fgithub.com%2FSoyGema%2FpySC2-minigames)
 
 # pySC2 mini-games
 
-Community mini-games for [pySC2 Deepmind library](https://github.com/deepmind/pysc2)
+Community mini-games for [pySC2 Starcraft II Learning Environment](https://github.com/deepmind/pysc2)
 
 ## Minigame task description
 
@@ -62,10 +61,11 @@ Curated list of pysc2 mini-games
 5.-[HitAndRun](https://github.com/SoyGema/pySC2-minigames/blob/master/mini-games/HitAndRun.SC2Map): ZergVSProtoss [Readme](README.md##HitAndRun)
 
 6.-[MarineRescue](https://github.com/SoyGema/pySC2-minigames/blob/master/mini-games/Marine_Rescue.SC2Map): Terran VS Zerg.
+(README.md##MarineRescue)
 
-7.-[FlowerFields](https://github.com/SoyGema/pySC2-minigames/blob/master/mini-games/FlowerFields.SC2Map):Learn to regroup and defeat the enemy . TerranVSProtoss  
+7.-[FlowerFields](https://github.com/SoyGema/pySC2-minigames/blob/master/mini-games/FlowerFields.SC2Map):Learn to regroup and defeat the enemy . TerranVSProtoss . (README.md##FlowerFields) 
 
-8.[MineralsHaveArrived](https://github.com/SoyGema/pySC2-minigames/blob/master/mini-games/MineralsHaveArrived.SC2Map):Learn to gather as many minerals as possible  . Terran
+8.[MineralsHaveArrived](https://github.com/SoyGema/pySC2-minigames/blob/master/mini-games/MineralsHaveArrived.SC2Map):Learn to gather as many minerals as possible  . Terran (README.md##MineralsHaveArrived)
 
 
 
@@ -295,7 +295,7 @@ No camera movement required (single-screen)
 ## MineralsHaveArrived
 
 
-#### Minigame repositories from [ShadowSpyes](https://github.com/ShadowSpyes) (Map conditions changed 
+#### Minigame repositories from [ShadowSpyes](https://github.com/ShadowSpyes) (Map conditions, time,  changed 
 
 #### Description
 
