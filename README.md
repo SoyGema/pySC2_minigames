@@ -49,7 +49,7 @@ my-computer:~ me$ python -m pysc2.bin.agent --map FlowerFields
 
 ## Curated list of pysc2 mini-games 
 
-1.- [DefeatZealotswithBlink](https://github.com/SoyGema/pySC2-minigames/blob/master/mini-games/DefeatZealots.SC2Map): Learn to use blink with Stalkers . ProtossVSTerran [Readme](README.md#DefeatZealotswithBlink)
+1.- [DefeatZealotswithBlink](https://github.com/SoyGema/pySC2-minigames/blob/master/mini-games/DefeatZealots.SC2Map): Learn to use blink with Stalkers . ProtossVSTerran [Readme](#DefeatZealotswithBlink)
 
 2.- [HallucinIce](https://github.com/SoyGema/pySC2-minigames/blob/master/mini-games/HallucinIce.SC2Map): Learn to use Hallucination with Sentry units. ProtossVSTerran [Readme](README.md##HallucinIce-(-Debugged-))
 
@@ -100,12 +100,6 @@ A map with 1 Stalker opposite to 1 Zealot. Rewards are earned by using the Stalk
 ### Intended Machine Learning Objective
 * Optimal policy might learn micro strategy to move Stalkers away from zealots and atack them in distance . Focusing on attacking one zealot until it's dead seems to have an optimal outcome. 
 * Great map for micro Stalker unit learning 
-  
-### Variations of DefeatZealots 
-
-  * Defeat Zealots Blink
-   
-
   
    ## HallucinIce ( Debugged ) 
 
