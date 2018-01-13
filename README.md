@@ -51,21 +51,21 @@ my-computer:~ me$ python -m pysc2.bin.agent --map FlowerFields
 
 1.- [DefeatZealotswithBlink](https://github.com/SoyGema/pySC2-minigames/blob/master/mini-games/DefeatZealots.SC2Map): Learn to use blink with Stalkers . ProtossVSTerran [Readme](#defeatzealotswithblink)
 
-2.- [HallucinIce](https://github.com/SoyGema/pySC2-minigames/blob/master/mini-games/HallucinIce.SC2Map): Learn to use Hallucination with Sentry units. ProtossVSTerran [Readme](README.md##HallucinIce-(-Debugged-))
+2.- [HallucinIce](https://github.com/SoyGema/pySC2-minigames/blob/master/mini-games/HallucinIce.SC2Map): Learn to use Hallucination with Sentry units. ProtossVSTerran [Readme](#hallucinice--debugged-)
 
-3.- [PredictBattleOutcome](https://github.com/SoyGema/pySC2-minigames/blob/master/mini-games/PredictBattleOutcome.SC2Map): Predict the battle outcome. TerranVSZerg [Readme](README.md##PredictBattleOutcome)
+3.- [PredictBattleOutcome](https://github.com/SoyGema/pySC2-minigames/blob/master/mini-games/PredictBattleOutcome.SC2Map): Predict the battle outcome. TerranVSZerg [Readme](#predictbattleoutcome--debugged---reviewed-with-author-)
 
 4.- [DefeatRavagersRepairCyclones](https://github.com/SoyGema/pySC2-minigames/blob/master/mini-games/DefeatRavagerswithRepairCyclones.SC2Map): Learn to repair units with SCVs while defeating the enemy. ZergVSTerran
-[Readme](README.md##DefeatRavagersRepairCyclones)
+[Readme](#defeatravagersrepaircyclones--debugged--time-limit-changed---review-with-author-asked-)
 
-5.-[HitAndRun](https://github.com/SoyGema/pySC2-minigames/blob/master/mini-games/HitAndRun.SC2Map): ZergVSProtoss [Readme](README.md##HitAndRun)
+5.-[HitAndRun](https://github.com/SoyGema/pySC2-minigames/blob/master/mini-games/HitAndRun.SC2Map): ZergVSProtoss [Readme](#hit-and-run)
 
 6.-[MarineRescue](https://github.com/SoyGema/pySC2-minigames/blob/master/mini-games/Marine_Rescue.SC2Map): Terran VS Zerg.
-[Readme](README.md##MarineRescue)
+[Readme](#mineralshavearrived)
 
-7.-[FlowerFields](https://github.com/SoyGema/pySC2-minigames/blob/master/mini-games/FlowerFields.SC2Map):Learn to regroup and defeat the enemy . TerranVSProtoss . [Readme](README.md##FlowerFields) 
+7.-[FlowerFields](https://github.com/SoyGema/pySC2-minigames/blob/master/mini-games/FlowerFields.SC2Map):Learn to regroup and defeat the enemy . TerranVSProtoss . [Readme](#flowerfields) 
 
-8.[MineralsHaveArrived](https://github.com/SoyGema/pySC2-minigames/blob/master/mini-games/MineralsHaveArrived.SC2Map):Learn to gather as many minerals as possible  . Terran [Readme](README.md##MineralsHaveArrived)
+8.[MineralsHaveArrived](https://github.com/SoyGema/pySC2-minigames/blob/master/mini-games/MineralsHaveArrived.SC2Map):Learn to gather as many minerals as possible  . Terran [Readme](#mineralshavearrived)
 
 
 
@@ -101,7 +101,7 @@ A map with 1 Stalker opposite to 1 Zealot. Rewards are earned by using the Stalk
 * Optimal policy might learn micro strategy to move Stalkers away from zealots and atack them in distance . Focusing on attacking one zealot until it's dead seems to have an optimal outcome. 
 * Great map for micro Stalker unit learning 
   
-   ## HallucinIce ( Debugged ) 
+   # HallucinIce ( Debugged ) 
 
 ![alt tag](https://github.com/SoyGema/pySC2-minigames/blob/master/images/SoyGema/HallucinIce%20.png)
 #### Minigame repositories from [SoyGema](https://github.com/SoyGema/Startcraft_pysc2_minigames)
@@ -141,7 +141,7 @@ No camera movement required (single-screen)
 
 
 
- ## PredictBattleOutcome ( Debugged - reviewed with author ) 
+ # PredictBattleOutcome ( Debugged - reviewed with author ) 
  
  ![alt tag](https://github.com/SoyGema/pySC2-minigames/blob/master/images/deadzombie2333/Predict_Battle_Outcome.png)
 #### Minigame repositories from  [deadzombie2333](https://github.com/deadzombie2333/Minigame_Predict_Battle_Outcome) 
@@ -173,7 +173,7 @@ Objective for your agent/AI is to determine which side will win. In order to do 
 
 
 
- ## DefeatRavagersRepairCyclones ( Debugged + time limit changed - review with author asked ) 
+ # DefeatRavagersRepairCyclones ( Debugged + time limit changed - review with author asked ) 
  
  ![alt tag](https://github.com/SoyGema/pySC2-minigames/blob/master/images/TitanEX1/DefeatRavagersRepairCyclones.png)
 #### Minigame repositories from [TitanEX1](https://github.com/TitanEX1)
@@ -204,13 +204,13 @@ No camera movement required (single-screen)
 * Optimal policy might learn micro strategy to differenciate in between repair and attack units and exploit each one functions. 
 * Great map for micro terran repair/attck unit learning 
 
-# Minigame Hit and Run
+# Hit and Run
 
 Design of an agent that exploits cliff vaulting mechanics of Colossus in Starcraft II.  
 Based on Starcraft Master games 
 #### Minigame repositories from [heerdemoglu](https://github.com/heerdemoglu) and Holyswamp
 
-## Map Information:
+### Description
 
 One Colossus stands on top a cliff, while 27 Zerglings converge to attack on the Colossus climbing from ramps that are located from the sides of the cliff. The aim is to develop an agent which exploits cliff vaulting mechanics of Colossus in order to develop an advantage over Zerglings. The test time is set to 5 minutes and the game ends either when the Colossus ends or the dedicated time period has finished. The game resets itself while retaining reward points and the health of the Colossus, when all Zerglings on the map are killed.
 
@@ -240,7 +240,7 @@ The goal is to locate marines and order them to load a medivac for evacuation. B
 
 Medivac will automatic launch after it is fully loaded and you will get reward for that. At same time, another empty medivac will enter battle field to the designated location. 
 
-# Rewards:
+### Rewards:
  * each marine loaded medivac +1
  * each marine killed by baneling -1 
  * each medivac fully loaded and escaped +8
@@ -248,35 +248,35 @@ Medivac will automatic launch after it is fully loaded and you will get reward f
  ### Time Limit:
  * 180 seconds
 
-## FlowerFields
+# FlowerFields
 
 ![alt tag](https://github.com/SoyGema/Startcraft_pysc2_minigames/blob/master/Images/Captura%20de%20pantalla%202018-01-02%20a%20las%2014.51.09.png)
 #### Minigame repositories from [SoyGema](https://github.com/SoyGema)
 
-#### Description
+### Description
 
 Defeat protoss photon cannon without losing any marauder.
 The goal of the minigame is to learn to regroup marauders and to attack in a coordinated way without losing any unit 
 
-#### Initial State
+### Initial State
 
 *   4 photon cannon at Central playable size
 *   2 marauders at right playable size
 *   2 marauders at left playable size
 
- #### Rewards
+ ### Rewards
 
 Protoss defeated : +10
 Terran defeated : -5
 
- #### End Conditions
+ ### End Conditions
 
 Time elapsed
 Protoss defeated
 Time Limit
 60 seconds
 
- #### Additional Notes
+ ### Additional Notes
 Terrain condition designed for photon defense game development 
 Fog of war disabled
 No camera movement required (single-screen)
@@ -286,33 +286,33 @@ No camera movement required (single-screen)
 * The optimal policy will make marauders to regroup and attack together  
 
 
-## MineralsHaveArrived
+# MineralsHaveArrived
 
 
-#### Minigame repositories from [ShadowSpyes](https://github.com/ShadowSpyes) (Map conditions, time,  changed 
+#### Minigame repositories from [ShadowSpyes](https://github.com/ShadowSpyes) (Map conditions and time  changed )
 
-#### Description
+### Description
 
-Gather as many minerals as possible 
+Gather as many minerals as possible . With four different settlement of gas and minerals and a random inizialization of the starting point , the goal is to settle the gathering with as much as resources as possible . Find the optimal position ir even expansion for reaching the goal . 
 
-#### Initial State
+### Initial State
 
 *   1 command center 
 *   12 SCVs
 
 
- #### Rewards
+### Rewards
 
 SCV mineral gather to command center : +5
 
- #### End Conditions
+### End Conditions
 
 Time elapsed
 Protoss defeated
 Time Limit
 300 seconds
 
- #### Additional Notes
+### Additional Notes
 Terrain condition designed for photon defense game development 
 Fog of war disabled
 No camera movement required (single-screen)
