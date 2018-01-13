@@ -49,7 +49,7 @@ my-computer:~ me$ python -m pysc2.bin.agent --map FlowerFields
 
 ## Curated list of pysc2 mini-games 
 
-1.- [DefeatZealotswithBlink](https://github.com/SoyGema/pySC2-minigames/blob/master/mini-games/DefeatZealots.SC2Map): Learn to use blink with Stalkers . ProtossVSTerran [Readme](#DefeatZealotswithBlink)
+1.- [DefeatZealotswithBlink](https://github.com/SoyGema/pySC2-minigames/blob/master/mini-games/DefeatZealots.SC2Map): Learn to use blink with Stalkers . ProtossVSTerran [Readme](#defeatzealotswithblink)
 
 2.- [HallucinIce](https://github.com/SoyGema/pySC2-minigames/blob/master/mini-games/HallucinIce.SC2Map): Learn to use Hallucination with Sentry units. ProtossVSTerran [Readme](README.md##HallucinIce-(-Debugged-))
 
