@@ -14,7 +14,11 @@ Minigames come as a controled environments that might be useful to exploit game 
 
 Mini-games are focused scenarios on small maps that have been constructed with the purpose of testing a subset of actions and/or game mechanics with a clear reward structure. Unlike the full game where the reward is just win/lose/tie, the reward structure for mini-games can reward particular behaviours (as defined in a corresponding .SC2Map file). 
 
-Community has also create different kind of mini-games in order to explore other aspects of gaming. This is a curated list that includes a selection of some significative ones, specially focused in aspects such as unit explotation, micro unit managment in different races. 
+Community has also create different kind of mini-games in order to explore other aspects of gaming. This is a curated list that includes a selection of some significative ones, specially focused in aspects such as unit explotation, micro unit managment in different races.
+
+## Download mini-games
+
+You can clone the repository or download a zip folder with all mini-games by clicking [here](https://github.com/SoyGema/pySC2-minigames/blob/master/zip/mini-games-community.zip)
 
 ## How to run community mini-games in your environment 
 
