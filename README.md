@@ -18,7 +18,7 @@ Community has also create different kind of mini-games in order to explore other
 
 ## Download mini-games
 
-You can clone the repository or download a zip folder with all mini-games by clicking [here](https://github.com/SoyGema/pySC2-minigames/blob/master/zip/mini-games-community.zip)
+You can clone the repository or download a zip folder with all mini-games by clicking [Here](https://github.com/SoyGema/pySC2-minigames/raw/master/zip/mini-games-community.zip)
 
 ## How to run community mini-games in your environment 
 
