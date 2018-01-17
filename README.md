@@ -42,7 +42,7 @@ mini_games = [  ## This mini-games names should alredy been in your list
     "HitAndRun", # 300s
     "Marine_Rescue", # 180s
     "FlowerFields", # 60s
-    "MineralsHaveArrived", # 500s
+    "ResourcesHaveArrived", # 500s
 ]
 ```
 3. In your console, you can type the mini-game map name 
@@ -69,7 +69,7 @@ my-computer:~ me$ python -m pysc2.bin.agent --map FlowerFields
 
 7.-[FlowerFields](https://github.com/SoyGema/pySC2-minigames/blob/master/mini-games/FlowerFields.SC2Map):Learn to regroup and defeat the enemy . TerranVSProtoss . [Readme](#flowerfields) 
 
-8.[MineralsHaveArrived](https://github.com/SoyGema/pySC2-minigames/blob/master/mini-games/MineralsHaveArrived.SC2Map):Learn to gather as many minerals as possible  . Terran [Readme](#mineralshavearrived)
+8.[ResourcesHaveArrived](https://github.com/SoyGema/pySC2-minigames/blob/master/mini-games/MineralsHaveArrived.SC2Map):Learn to gather as many minerals as possible  . Terran [Readme](#resourceshavearrived)
 
 
 
@@ -290,7 +290,7 @@ No camera movement required (single-screen)
 * The optimal policy will make marauders to regroup and attack together  
 
 
-# MineralsHaveArrived
+# ResourcesHaveArrived
 
 
 #### Minigame repositories from [ShadowSpyes](https://github.com/ShadowSpyes) (Map conditions and time  changed )
@@ -308,6 +308,7 @@ Gather as many minerals as possible . With four different settlement of gas and 
 ### Rewards
 
 SCV mineral gather to command center : +5
+SCV vespene gather to command center : +5
 
 ### End Conditions
 
