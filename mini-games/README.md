@@ -10,4 +10,4 @@ DefeatRavagersRepairCyclones. Made by by TitanEX1 (changed bug initializing by p
 
 HitAndRun . Made by emre erdemoglu and Holyswamp 
 
-MineralsHaveArrived. Made by ShawdowSpyes (changed terrain, camera inizialization  )
+ResourcessHaveArrived. Made by ShawdowSpyes (changed terrain, camera inizialization  )
