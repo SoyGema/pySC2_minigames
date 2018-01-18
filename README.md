@@ -60,7 +60,7 @@ my-computer:~ me$ python -m pysc2.bin.agent --map FlowerFields
 3.- [PredictBattleOutcome](https://github.com/SoyGema/pySC2-minigames/blob/master/mini-games/PredictBattleOutcome.SC2Map): Predict the battle outcome. TerranVSZerg [Readme](#predictbattleoutcome--debugged---reviewed-with-author-)
 
 4.- [DefeatRavagersRepairCyclones](https://github.com/SoyGema/pySC2-minigames/blob/master/mini-games/DefeatRavagerswithRepairCyclones.SC2Map): Learn to repair units with SCVs while defeating the enemy. ZergVSTerran
-[Readme](#defeatravagersrepaircyclones--debugged--time-limit-changed---review-with-author-asked-)
+[Readme](#defeatravagersrepaircyclones--debugged)
 
 5.-[HitAndRun](https://github.com/SoyGema/pySC2-minigames/blob/master/mini-games/HitAndRun.SC2Map): ZergVSProtoss [Readme](#hit-and-run)
 
@@ -177,7 +177,7 @@ Objective for your agent/AI is to determine which side will win. In order to do 
 
 
 
- # DefeatRavagersRepairCyclones ( Debugged + time limit changed - review with author asked ) 
+ # DefeatRavagersRepairCyclones ( Debugged) 
  
  ![alt tag](https://github.com/SoyGema/pySC2-minigames/blob/master/images/TitanEX1/DefeatRavagersRepairCyclones.png)
 #### Minigame repositories from [TitanEX1](https://github.com/TitanEX1)
