@@ -69,7 +69,7 @@ my-computer:~ me$ python -m pysc2.bin.agent --map FlowerFields
 
 7.-[FlowerFields](https://github.com/SoyGema/pySC2-minigames/blob/master/mini-games/FlowerFields.SC2Map):Learn to regroup and defeat the enemy . TerranVSProtoss . [Readme](#flowerfields) 
 
-8.[ResourcesHaveArrived](https://github.com/SoyGema/pySC2-minigames/blob/master/mini-games/MineralsHaveArrived.SC2Map):Learn to gather as many minerals as possible  . Terran [Readme](#resourceshavearrived)
+8.[ResourcesHaveArrived](https://github.com/SoyGema/pySC2_minigames/blob/master/mini-games/ResourcesHaveArrived.SC2Map):Learn to gather as many minerals as possible  . Terran [Readme](#resourceshavearrived)
 
 
 
