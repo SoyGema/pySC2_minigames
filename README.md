@@ -24,7 +24,7 @@ You can clone the repository or download a zip folder with all mini-games by cli
 
 1. Download or clone the repository, or download all minigames clicking here
 
-2.Place the .SC2 files into pysc2\maps\mini_games
+2. Place the .SC2 files into /Applications/StarCraft II/Maps/mini_games/ 
 
 3. Go to pysc2\maps\mini_games.py and add to mini-games array the following mini-games names 
 
