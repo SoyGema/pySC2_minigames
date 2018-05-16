@@ -24,7 +24,9 @@ You can clone the repository or download a zip folder with all mini-games by cli
 
 1. Download or clone the repository, or download all minigames clicking here
 
-2. Go to pysc2\maps\mini_games.py and add to mini-games array the following mini-games names 
+2.Place the .SC2 files into pysc2\maps\mini_games
+
+3. Go to pysc2\maps\mini_games.py and add to mini-games array the following mini-games names 
 
 ```python
 mini_games = [  ## This mini-games names should alredy been in your list
@@ -45,7 +47,7 @@ mini_games = [  ## This mini-games names should alredy been in your list
     "ResourcesHaveArrived", # 500s
 ]
 ```
-3. In your console, you can type the mini-game map name 
+4. In your console, you can type the mini-game map name 
 
 ```console
 my-computer:~ me$ python -m pysc2.bin.agent --map FlowerFields 
