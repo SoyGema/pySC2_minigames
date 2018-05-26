@@ -67,11 +67,11 @@ my-computer:~ me$ python -m pysc2.bin.agent --map FlowerFields
 5.-[HitAndRun](https://github.com/SoyGema/pySC2-minigames/blob/master/mini-games/HitAndRun.SC2Map): ZergVSProtoss [Readme](#hit-and-run)
 
 6.-[MarineRescue](https://github.com/SoyGema/pySC2-minigames/blob/master/mini-games/Marine_Rescue.SC2Map): Terran VS Zerg.
-[Readme](#mineralshavearrived)
+[Readme](#marine-rescue)
 
-7.-[FlowerFields](https://github.com/SoyGema/pySC2-minigames/blob/master/mini-games/FlowerFields.SC2Map):Learn to regroup and defeat the enemy . TerranVSProtoss . [Readme](#flowerfields) 
+7.-[FlowerFields](https://github.com/SoyGema/pySC2-minigames/blob/master/mini-games/FlowerFields.SC2Map):Learn to regroup and defeat the enemy . TerranVSProtoss . [Readme](#flower-fields) 
 
-8.[ResourcesHaveArrived](https://github.com/SoyGema/pySC2_minigames/blob/master/mini-games/ResourcesHaveArrived.SC2Map):Learn to gather as many minerals as possible  . Terran [Readme](#resourceshavearrived)
+8.[ResourcesHaveArrived](https://github.com/SoyGema/pySC2_minigames/blob/master/mini-games/ResourcesHaveArrived.SC2Map):Learn to gather as many minerals as possible  . Terran [Readme](#resources-have-arrived)
 
 
 
