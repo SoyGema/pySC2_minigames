@@ -241,7 +241,7 @@ One Colossus stands on top a cliff, while 27 Zerglings converge to attack on the
 * No upgrades available
 * The policy might learn micro strategy of kiting the enemy units by using cliff vault mechanic. Timing is crucial for agent to optimize Colossus health while inflicting most damage.
 
-# Marine Rescue Description:
+# Marine Rescue 
 The goal is to locate marines and order them to load a medivac for evacuation. Banelings are wandering on the map randomly looking for marine to kill. 10 difficulty levels are available for beginner and experienced player. The higher level, there will be more marines and banelings appeared simultaneously on the map. 
 
 Medivac will automatic launch after it is fully loaded and you will get reward for that. At same time, another empty medivac will enter battle field to the designated location. 
@@ -254,7 +254,7 @@ Medivac will automatic launch after it is fully loaded and you will get reward f
  ### Time Limit:
  * 180 seconds
 
-# FlowerFields
+# Flower Fields
 
 ![alt tag](https://github.com/SoyGema/Startcraft_pysc2_minigames/blob/master/Images/Captura%20de%20pantalla%202018-01-02%20a%20las%2014.51.09.png)
 #### Minigame repositories from [SoyGema](https://github.com/SoyGema)
@@ -292,7 +292,7 @@ No camera movement required (single-screen)
 * The optimal policy will make marauders to regroup and attack together  
 
 
-# ResourcesHaveArrived
+# Resources Have Arrived
 
 
 #### Minigame repositories from [ShadowSpyes](https://github.com/ShadowSpyes) (Map conditions and time  changed )
