@@ -53,6 +53,11 @@ mini_games = [  ## This mini-games names should alredy been in your list
 my-computer:~ me$ python -m pysc2.bin.agent --map FlowerFields 
 ```
 
+## Build your own mini-game melee type 
+
+You can find a [Tutorial](https://github.com/SoyGema/Startcraft_pysc2_minigames/tree/master/docs) for building your own mini-game in a DesignedArmyVsDesignedArmy type.
+
+
 ## Curated list of pysc2 mini-games 
 
 1.- [DefeatZealotswithBlink](https://github.com/SoyGema/pySC2-minigames/blob/master/mini-games/DefeatZealots.SC2Map): Learn to use blink with Stalkers . ProtossVSTerran [Readme](#defeatzealotswithblink)
